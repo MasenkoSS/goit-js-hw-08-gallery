@@ -3,7 +3,6 @@ import pics from './data/app.js';
 // поиск в ДОМ
 const galleryRef = document.querySelector('.js-gallery');
 const backdropRef = document.querySelector('.js-lightbox');
-const overlayRef = backdropRef.querySelector('.lightbox__overlay');
 const modalImgRef = backdropRef.querySelector('.lightbox__image');
 const closeModalBtnRef = backdropRef.querySelector('button[data-action="close-lightbox"]');
 
